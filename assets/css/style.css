@@ -7,7 +7,9 @@
   body {
     font-family: 'Courier New', Courier, monospace;
   }
+
   
+  /*Header*/
   header {
     padding: 20px 35px;
     background-color: black;
@@ -29,15 +31,13 @@
   header nav {
     float: right;
     margin: 7px 0;
-  }
-  
-  header nav ul li {
     display: inline;
   }
   
-  header nav ul li a {
+  header nav a {
     margin: 0 30px;
     font-weight: lighter;
+    font-size: 25px;
   }
 
 
@@ -46,6 +46,7 @@
     background-size: cover;
     height: 600px;
     }
+    
     #hero h2 {
       color: white;
       text-align: center;  
