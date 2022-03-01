@@ -6,6 +6,7 @@
   
   body {
     font-family: 'Courier New', Courier, monospace;
+    
   }
 
   
@@ -23,7 +24,7 @@
     font-size: 36px;
     color: white;
     margin: 0;
-    display: inline;
+    display: flex;
     
   }
   header nav {
@@ -55,8 +56,10 @@
   #hero{
     background-image: url("../images/hero.png");
     background-size: cover;
-    height: 600px;
-    }
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;   
+  }
 
     #hero h2 {
       color: white;
@@ -77,5 +80,34 @@ footer p  {
   font-size: 30px;
   margin: 0;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* about me */
+ #aboutcol2 , #about h2{
+  flex: 2;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+#aboutcol2 section {
+  border-style: groove;
+  border-width: 3px;
+  padding: 10px;
+  flex: 0 0 400px;
+  margin: 50px;
+  
+}
+
+#aboutimg img{
+width: 300px;
+border-radius: 50%;
+}
+
+#about h2{
+  padding: 20px;
   justify-content: center;
 }
