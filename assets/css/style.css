@@ -37,16 +37,20 @@
     align-items: center;
     list-style: none;
   } 
-  header nav ul li {
-    display: inline;
+
+  header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
   }
-  
+
   header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 1.33vw;
+    font-size: 1.55vw;
   }
-
 
   #hero{
     background-image: url("../images/hero.png");
@@ -61,8 +65,17 @@
       font-size: 100px;
 }
 
-@media screen and (max-width: 768px) {
-  nav {
-    flex-direction: column;
-  }
+/* Footer */
+footer {
+  background-color: black;
+  
+}
+
+footer p  {
+  display: flex;
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: center;
 }
