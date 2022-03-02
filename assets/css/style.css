@@ -83,8 +83,7 @@ footer p {
 
 /* about me */
 
-#aboutcol2,
-#about h2 {
+.aboutcol2, h2, .portfolio {
     flex: 2;
     padding: 20px;
     display: flex;
@@ -92,12 +91,11 @@ footer p {
     justify-content: center;
 }
 
-#aboutcol2 section {
-    border-style: groove;
-    border-width: 3px;
+.aboutcol2 , .workimg{
     padding: 10px;
     flex: 0 0 400px;
     margin: 50px;
+    text-align: center;
 }
 
 #aboutimg img {
@@ -105,7 +103,16 @@ footer p {
     border-radius: 50%;
 }
 
-#about h2 {
+h2 {
     padding: 20px;
     justify-content: center;
+    border-bottom: 1px solid #39a6b2;
+    border-radius: 50px;
+    border-width: 20px;
+
+}
+
+/* Work */
+.workimg{
+    width: 500px; 
 }
