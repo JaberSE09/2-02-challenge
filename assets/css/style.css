@@ -55,7 +55,7 @@ header {
     flex-wrap: wrap;
 }
 
-#hero h2 {
+#hero h1 {
     color: white;
     width: 50%;
     text-align: center;
@@ -83,15 +83,15 @@ footer p {
 
 /* about me */
 
-.aboutcol2, h2, .portfolio {
-    flex: 2;
+.aboutcol2, h2, .portfolio , .links {
+    flex: auto;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.aboutcol2 , .workimg{
+.aboutcol2 , .workimg , link{
     padding: 10px;
     flex: 0 0 400px;
     margin: 50px;
@@ -115,4 +115,10 @@ h2 {
 /* Work */
 .workimg{
     width: 500px; 
+}
+
+/* Links */
+.link{
+    padding: 20px;
+    font-size: 20px
 }
