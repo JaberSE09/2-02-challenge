@@ -83,7 +83,7 @@ footer p {
 
 /* about me */
 
-.aboutcol2, h2, .portfolio , .links {
+.aboutcol2, h2, .portfolio , .links, .fullimg{
     flex: auto;
     padding: 20px;
     display: flex;
@@ -117,8 +117,42 @@ h2 {
     width: 500px; 
 }
 
+
+
+.fullimg {
+   width: 100%;
+}
+
+
 /* Links */
 .link{
     padding: 20px;
     font-size: 20px
 }
+
+@media screen and (max-width: 700px) {
+       html,body {
+      margin:0;
+      padding:0;
+      overflow-x:hidden;
+      }
+  
+      header {
+        display: flex;
+        justify-content: center;
+      }
+      header nav ul li a{
+        font-size: 2vw;
+      }
+
+    footer p {
+      text-align: center;
+      width: 100%;
+    }
+    .fullimg{
+      width: 100%;
+      padding: 0;
+      flex: 1 ;
+    }
+
+  }
