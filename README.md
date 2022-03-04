@@ -11,9 +11,9 @@ Each goes to a id in the webpage
 Then there is a hero section where full stack developer is centered
 Each section has a h2 tag and a hr that breaks up the sections
 First section has a photo and a bio of me
-Second section has a feature work and tow works under it
+Second section has a feature work and tow works under it and each image keads to the website made
 Contact is the least section where you can call , email  view github or see linkdin
-footer at bottum 
+footer at bottum
 
 
 ## Table of Contents (Optional)
@@ -27,40 +27,53 @@ If your README is very long, add a table of contents to make it easy for users t
 
 
 ## Installation
-
-
-
+https://jaberse09.github.io/2-02-challenge/ is the link to the work
+just ckone the repo and run the index.html 
 
 ## Usage
 
 ```md
-![alt text](assets/images/screenshot.png)
+![alt text](assets/images/header.jpg)
 ```
+At the top of the pafe is the nav bar
+
+```md
+![alt text](assets/images/hero.jpg)
+```
+then the hero section where full stack developer is in middle
+```md
+![alt text](assets/images/work1.jpg)
+```
+work section has two rows and freature work full width
+
+```md
+![alt text](assets/images/footer.jpg)
+```
+footer documented the rights
+
 
 
 ## Credits
-
+Sajid Jaber
 ## License
+MIT License
 
+Copyright (c) [2022] [Sajid Jaber]
 
----
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, consider adding a heading called "Features" and list them there.
-
-## Contributing
-
-If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
-
----
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
