@@ -1,8 +1,19 @@
-# 2-02-challenge
+# 2-02-challenge Portfolio Website
 
 ## Description
-
-
+Created a responsive website for all devices for my portfolio
+The nav consists of my name and four links
+    HOME
+    ABOUT
+    WORK 
+    CONTACT
+Each goes to a id in the webpage
+Then there is a hero section where full stack developer is centered
+Each section has a h2 tag and a hr that breaks up the sections
+First section has a photo and a bio of me
+Second section has a feature work and tow works under it
+Contact is the least section where you can call , email  view github or see linkdin
+footer at bottum 
 
 
 ## Table of Contents (Optional)

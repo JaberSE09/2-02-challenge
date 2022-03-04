@@ -83,7 +83,7 @@ footer p {
 
 /* about me */
 
-.aboutcol2, h2, .portfolio , .links, .fullimg{
+.aboutcol2, h2, .portfolio , .links{
     flex: auto;
     padding: 20px;
     display: flex;
@@ -121,6 +121,7 @@ h2 {
 
 .fullimg {
    width: 100%;
+   padding: 10px;
 }
 
 
@@ -130,7 +131,9 @@ h2 {
     font-size: 20px
 }
 
-@media screen and (max-width: 700px) {
+
+/* Media Queues */
+@media screen and (max-width: 767px) {
        html,body {
       margin:0;
       padding:0;
@@ -138,21 +141,50 @@ h2 {
       }
   
       header {
-        display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: stretch;
       }
-      header nav ul li a{
-        font-size: 2vw;
-      }
-
+  
     footer p {
       text-align: center;
-      width: 100%;
+      align-items: stretch;
     }
-    .fullimg{
+   footer{
+    flex-direction: column;
+    padding: 10px;
+  }
+
+ 
+  }
+
+  @media screen and (max-width: 328px) {
+
+    #hero h1{
+      font-size: 7.33vw;
+    }
+    .abouttext{
+      font-size: 4.33vw;
+    }
+   
+
+    footer p{
+      font-size: 7.33vw;
+
+    }
+
+    .portfolio a img, #aboutimg img {
+      display: flex;
       width: 100%;
-      padding: 0;
-      flex: 1 ;
+      align-items: center;  
+      padding: 10;
+      flex: 0 0 8px;
+      margin: 0px;
+      text-align: start;
+    
+    }
+
+    #aboutimg img{
+      padding: 0%;
     }
 
   }
