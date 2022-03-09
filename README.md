@@ -33,14 +33,10 @@ just ckone the repo and run the index.html
 ```md
 ![alt text](assets/images/header.jpg)
 ```
-At the top of the pafe is the nav bar
+At the top of the page is the nav bar and hero image
 
 ```md
-![alt text](assets/images/hero.jpg)
-```
-then the hero section where full stack developer is in middle
-```md
-![alt text](assets/images/work1.jpg)
+![alt text](assets/images/work.jpg)
 ```
 work section has two rows and freature work full width
 
