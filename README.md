@@ -1,6 +1,7 @@
 # 2-02-challenge Portfolio Website
 
 ## Description
+
 Created a responsive website for all devices for my portfolio
 The nav consists of my name and four links
     HOME
